@@ -251,12 +251,7 @@ section .sec-title {
   }
   /* main sec1 - e */
   .home {
-    padding-top: 40vh;
-    height: 100vh;
-    color: #fff;
-    background-image: url(../img/bg3.jpg);
-    background-position: center;
-    background-size: cover;
+    padding-top: 30vh;
   }
   .home .inner h2 {
     margin-bottom: 20px;
