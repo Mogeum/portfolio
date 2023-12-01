@@ -105,8 +105,8 @@
                   <strong>한국전통문화전당</strong>
                   <div>
                     <div class="bad">
-                      <p> 기존의 메인 홈페이지의 글자가 리사이징할 때 다 겹치고, 내용이 너무 많았습니다</p>
-                      <p> 또한 체험, 교육, 대관 일정 정보를 각자의 서브 페이지로 들어가서 찾아야했습니다</p>
+                      <p> 기존의 메인 홈페이지의 글자가 리사이징할 때 다 겹쳤습니다</p>
+                      <p> 또한 체험, 교육, 대관 일정 정보를 각자 찾아야했습니다</p>
                     </div>
                     <p> 캘린더를 사용해 메인페이지에 들어 왔을 때 바로 일정을 확인할 수 있게 했습니다</p>
                     <p>그누보드를 사용해 공지사항 게시판을 작동시켰습니다</p>
@@ -160,8 +160,8 @@
     var menu = ['Home', 'About', 'Project1', 'Project2', 'Project3', 'Contact'];
     var swiper = new Swiper(".mySwiper", {
       direction: "vertical",
-      slidesPerView: 1,
       mousewheel: true,
+      slidesPerView: 1,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -169,6 +169,11 @@
           return '<span class="' + className + '">' + (menu[index]) + '</span>';
         },
       },
+      // breakpoints: {
+      //   760: {
+      //     direction: "vertical",
+      //   },
+      // }
     });
   </script>
 </body>
