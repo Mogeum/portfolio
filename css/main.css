@@ -94,8 +94,8 @@ section .sec-title {
 .about-txt-certificate p {
   font-size: 1.6vw;
 }
-.about-txt-certificate p:first-child {
-  margin-bottom: 10px;
+.about-txt-certificate p {
+  margin-bottom: 5px;
 }
 .about-txt-certificate span {
   margin-right: 7px;
